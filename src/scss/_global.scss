@@ -1,0 +1,15 @@
+@use "@scss/vars" as *;
+
+body {
+  @include RobotoVar(500);
+  font-size: 16px;
+  color: $black;
+  line-height: 1.5;
+}
+
+.container {
+  max-width: 1220px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
